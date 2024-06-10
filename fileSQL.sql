@@ -43,6 +43,9 @@ Select* from Invites;
 SELECT nom , statut FROM Invites;
 
 
+SELECT COUNT(*) AS total_Invites FROM Invites;
+
+
 
 
 
