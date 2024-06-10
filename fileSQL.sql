@@ -46,6 +46,8 @@ SELECT nom , statut FROM Invites;
 SELECT COUNT(*) AS total_Invites FROM Invites;
 
 
+SELECT COUNT(*) FROM Invites WHERE statut = 'Suspect';
+
 
 
 
