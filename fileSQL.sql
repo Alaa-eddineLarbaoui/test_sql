@@ -36,6 +36,16 @@ CREATE TABLE Indices (
     id_room INT,
     FOREIGN KEY (id_room) REFERENCES Rooms(id_room)
 );
+
+Select* from Invites;
+
+
+
+
+
+
+
+
 INSERT INTO Invites (id_invite, nom, statut) VALUES (1, 'Jean Dupont', 'Suspect');
  INSERT INTO Invites (id_invite, nom, statut) VALUES (2, 'Marie Curie', 'Innocent');
  INSERT INTO Invites (id_invite, nom, statut) VALUES (3, 'Albert Einstein', 'Suspect'); 
@@ -65,5 +75,6 @@ INSERT INTO Movements (id_mouvement, id_invite, room_id, temps) VALUES ( 1, 1, '
  INSERT INTO Indices (id_indice, description_Indice, id_room) VALUES (2, 'Traces de sang sur la table', 2);
  INSERT INTO Indices (id_indice, description_Indice, id_room) VALUES (3, 'Foulard déchiré retrouvé sur le sol', 3);
  INSERT INTO Indices (id_indice, description_Indice, id_room) VALUES (4, 'Clé ancienne trouvée sous le canapé', 4);
- INSERT INTO Indices (id_indice, description_Indice, id_room) VALUES (5, 'Bijou abandonné dans le jardin', 5);
+ INSERT INTO Indices (id_indice, description_Indice, id_room) VALUES (5, 'Bijou abandonné dans le jardin', 5)
+
 
