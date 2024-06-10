@@ -47,7 +47,12 @@ SELECT COUNT(*) AS total_Invites FROM Invites;
 
 
 SELECT COUNT(*) FROM Invites WHERE statut = 'Suspect';
+SELECT * FROM Mouvements ORDER BY temps ASC LIMIT 1;
 
+SELECT * FROM Mouvements ORDER BY temps DESC LIMIT 1;
+SELECT * FROM Object ORDER BY Rooms;
+SELECT * FROM Mouvements ORDER BY temps;
+SELECT id_invite, COUNT(*) AS movements_count FROM Mouvements GROUP BY id_invite;
 
 
 
