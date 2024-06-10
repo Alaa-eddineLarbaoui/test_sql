@@ -40,7 +40,7 @@ CREATE TABLE Indices (
 Select* from Invites;
 
 
-
+SELECT nom , statut FROM Invites;
 
 
 
